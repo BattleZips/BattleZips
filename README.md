@@ -14,7 +14,7 @@ circom_tester was employed to test all edge cases of the shot and board proofs. 
 
 In order to be considered an example of a production ready software stack, BattleZips still needs to iterate to create a maximally cost-efficient dApp. In BattleZips v0.0.2, board and shot proofs are exchanged on-chain. Our next iteration will use state channels in the form of socket.io to allow two players of a game to use babyjub keys to establish an ECDH shared secret by which they can send their proofs back and forth to eachother. Once an end state is reached, the entire game state is to be stored in a merkle tree rolled up on-chain in a single transaction. In even more future versions, upgrading our state channels to be [WebRTC signalling using IPFS](https://github.com/cretz/webrtc-ipfs-signaling) is also on the radar. Finally, the project will be documented and republished open-source as a cryptozombies analogue for all things zero knowledge.
 
-This project is WIP. Please contact @jp4g_ on twitter or open issues with questions/ comments/ concerns. [Presented on 2/20/22 at EthDenver](https://www.twitch.tv/videos/1304742395?t=02h18m52s)
+This project is WIP. Please contact @jp4g_ on twitter or open issues with questions/ comments/ concerns. [Presented on 2/20/22 at EthDenver](https://youtu.be/f_qu2Z0vc9M?t=1249)
 
 ## Steps (requires Linux/ OS X)
 Since compatibility is a common question, M1 chips will outperform the expected wait times on ptau and setup
